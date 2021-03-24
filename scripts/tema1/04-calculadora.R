@@ -1,3 +1,15 @@
+
+#Ejerciicos realizados Karen Gómez 24/03/21 Calculadora
+
+#Suma
+2+3
+#Resta
+7-3
+#Producto
+4*6
+
+# Uniendo varios funciones
+
 2*(3+5/2)
 
 2*((3+5)/2)
@@ -10,12 +22,15 @@
 
 2^3*5
 
+#Potencia
 2^-4
 
 2^(-4)
 
+#Cociente entero
 725%/%7
 
+# residuo
 725%%7
 # D = d * q + r
 # r = D - d * q
@@ -23,6 +38,7 @@
 # x = D %% d 
 725 - 103*7
 
+#pi
 pi
 
 2*pi
@@ -31,29 +47,38 @@ pi
 
 pi^2
 
+# El  numero mas grande que existe
 Inf
 
+#El numero mas pequeño
 -Inf
 
+#Valor desconocido
 NA
 
+# No existe
 NaN
 
 5/0
 
 0/0
+# Notación cientifica 1.1259e+15 =1125900000000000 
+2^50
 
-2^50# = 1.1259e+15 = 1125900000000000 
-
-2 ^(-15) # 3.051758e-05 = 0.00003051758
+# Notación cientifica 3.051758e-05 = 0.00003051758
+2 ^(-15)
 
 c(2^30, 2^(-15), 1, 2, 3/2)
 
 
+#Raiz cuadrada
+
 sqrt(25)
 
+#
 exp(1)
 
+#Logaritmo
 log(pi)
 
 log(32, 2)
@@ -61,14 +86,19 @@ log(32, 2)
 log(32, base = 2)
 log(base=2, 32)
 
+#Valor absoluto
 abs(-pi)
 
+# Numero Factorial: Se define como un número factorial de un número entero posotivo n como n!= n*(n-1)...2*1
+# tener en cuenta que esto solo se puede hacercon numero enteros
 factorial(7)
 
 factorial(4)
 
+# Factorial de 0 se definer como 1
 factorial(0)
 
+# Coeficiente binomial Cuantas posibles pueden existir
 choose(5, 3)
 
 choose(3,5)
