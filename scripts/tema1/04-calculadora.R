@@ -90,24 +90,28 @@ log(base=2, 32)
 abs(-pi)
 
 # Numero Factorial: Se define como un número factorial de un número entero posotivo n como n!= n*(n-1)...2*1
-# tener en cuenta que esto solo se puede hacercon numero enteros
+# tener en cuenta que esto solo se puede hacer con numero enteros
 factorial(7)
 
 factorial(4)
 
-# Factorial de 0 se definer como 1
+# Factorial de 0 se define como 1
 factorial(0)
+factorial(-2)
 
 # Coeficiente binomial Cuantas posibles pueden existir
-choose(5, 3)
+choose(5, 3) 
+# Ejemplo si quisiera 5 platos y me como tres de cuantas formas lo puedo hacer
 
 choose(3,5)
-
+choose(5,2)
+#Numero de logartimto en este caso 32 en base 2
+log (32,2)
 log(4^6, 4)
-
 6^log(4,6)
 
-choose(5,2)
+# IMPORTANTE PARA SABER R  opta porque lo que le envien esta en radianes
+#si es tuviera en grados toca realizar regla de tres
 
 sin(60*pi/180)
 
