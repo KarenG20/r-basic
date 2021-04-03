@@ -131,11 +131,17 @@ asin(5) #arc sin x in [-1,1]
 
 acos(-8)
 
+#ecojiendo qeu cantidad de digitos se quiere  en el primero 10  el de round los 3 primeros significativos
+#floor el numero entero,celling redondea hacia el cielo
+#ceiling(x) para entera por exceso de x tiende arriba
+#floor(x) parte entera por defecto de x para abajo
+#tunc(x) quita los decimales
 print(sqrt(2),10)
 round(sqrt(2), 3)
-floor(sqrt(2))
+floor(sqrt(12))
 ceiling(sqrt(2))
 trunc(sqrt(2))
+print(sqrt(12),10)
 
 sqrt(2)^2-2
 
@@ -150,6 +156,8 @@ print(pi, 22)
 
 round(1.25,1)
 round(1.35,1)
+round(1.12,1)
+#Esto significa a redondear a numero entero mas cercano
 round(sqrt(2),0)
 round(sqrt(2))
 
@@ -161,19 +169,21 @@ floor(-3.45)
 ceiling(-3.45)
 trunc(-3.45)
 
-
+#Variable y funciones para asignar se puede hace (=,<-,->) lo es que en la punta de la fecha es la variable y el tor lado el valor
 x = (pi^2)/2
 x
 
 y <- cos(pi/4)
 y
+x
 
 sin(pi/4) + cos(pi/4) -> z
 z
 
-edad <- 30
+age <- 31
+age
 
-nombre = "Juan Gabriel"
+name = "Karen Gómez"
 
 HOLA = 1
 hola = 5
@@ -190,16 +200,20 @@ x = sqrt(x)
 f = function(x) {
   x^3 - (3^x) * sin(x)
 }
-
+f1 = function(x) {
+  x^3 - (3*x) * sin(x)
+}
+f(2)
+f1(4)
 f(4) # 4^3 - 3^4 * sin(4)
 f(5)
 f(pi/2)
 
-suma1 <- function(t){
-  t + 1
+suma1 <- function(t,y){
+  t + y
 }
-suma1(6)
-suma1(-5)
+suma1(6,3)
+suma1(-5,4)
 
 product <- function(x, y){
   x*y
@@ -213,21 +227,23 @@ g(1, 2, 3)
 g(1, -1, pi)
 
 suma5 <- function(numero){
-  numero = suma1(numero);
-  numero = suma1(numero);
-  numero = suma1(numero);
-  numero = suma1(numero);
+  numero <- suma1(numero);
+  numero <- suma1(numero);
+  numero <- suma1(numero);
+  numero <- suma1(numero);
   suma1(numero)
 }
 
-suma5(3)
+suma5(5)
 
+#En lista variables y funciones que se han creado
 ls()
-
+#elimina variable o funcion selecionada
 rm(product)
 
 ls()
 
+#Borra toda las variables y funciones creadas
 rm(list = ls())
 
 class(3+2i)
