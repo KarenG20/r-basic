@@ -34,15 +34,13 @@ ecuacion (7,4,18);
 ecuacion (0,1,1);
 #Dad una expresión para calcular 3e-π y a continuación, 
 #dad el resultado que habéis obtenido con R redondeado a 3 cifras decimales.
-y<-exp(3-pi);
-y;
-print(y,3);
 
-round(3*exp(1)-pi,3)      
+y <- round(3*exp(1)-pi,3);
+y;
 5.013 
-round(Mod((2+3i)^2/(5+8i)),3) 
-1.378
+
 
 #Dad el módulo del número complejo (2+3i)^2/(5+8i) redondeado a 3 cifras decimales.
-z <- (2+3i)^2/(5+8i);
-print (z,3);
+z <-round(Mod((2+3i)^2/(5+8i)),3); 
+z;
+1.378
