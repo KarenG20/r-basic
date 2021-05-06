@@ -75,7 +75,9 @@ c(2^30, 2^(-15), 1, 2, 3/2)
 
 sqrt(25)
 
-#
+#¿Cómo es la instrucción en R del número e?
+#Tal y como hemos visto, la función exp(x) calcula el número e elevado a x. 
+#Por tanto, para obtener el número e necesitamos que x=1. De ahí que la respuesta correcta sea exp(1).
 exp(1)
 
 #Logaritmo
@@ -149,6 +151,8 @@ round(sqrt(2), 4)^2
 
 2^50
 print(2^50, 15)
+atan(50)
+print(atan(50),3)
 print(2^50, 2)
 print(pi, 22)
 #3.141592653589793115998
@@ -195,11 +199,16 @@ x = 2
 x = x^2
 
 x = sqrt(x)
+abs(3*2)
 
 ## Función f(x) = x^3 - (3^x)* sen(x)
 f = function(x) {
   x^3 - (3^x) * sin(x)
 }
+test= function(x){
+  sqrt(x)* abs ((-x)^3)
+}
+test(5)
 f1 = function(x) {
   x^3 - (3*x) * sin(x)
 }
@@ -273,10 +282,11 @@ cos(3+2i)
 
 #Módulo = sqrt(Re(z)^2 + Im(z)^2)
 Mod(z1)
-#Argumento = arctan(Im(z)/Re(z))
+#Argumento = arctan(Im(z)/Re(z)), si la parate real es 0 va generar un problema
 # = arccos(Re(z)/Mod(z))
 # = arcsin(Im(z)/Mod(z))
 # va de (-pi, pi]
+Arg(z1)
 Arg(-1+0i)
 Arg(-1-2i)
 #Conjugado = Re(z)- Im(z)i

@@ -1,8 +1,9 @@
 ---
 title: "Mi primer Markdown"
-author: "Curso de Álgebra Lineal"
-date: "11/12/2018"
+author: ' Curso de Estadistica Descriptiva Karen Gómez'
+date: "03/04/2020"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -12,6 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
+
+Esto es una formula en LateX
+$$ \int_0^1 x\ dx = \left.\frac{x^2}{2}\right]_0^1 =\frac {1}{2} $$
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
