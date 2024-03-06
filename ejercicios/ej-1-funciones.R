@@ -11,3 +11,6 @@ opBasic1 <- function(x,y){
   print (paste(sprintf ("%i / %i =", y,x),y-x));
   print (paste(sprintf ("Con resto", y,x),y%%x));
 }
+
+opBasic1(6,4)
+

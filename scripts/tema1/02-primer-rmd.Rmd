@@ -1,11 +1,11 @@
 ---
 title: "Mi primer Markdown"
 author: ' Curso de Estadistica Descriptiva Karen Gómez'
-date: "03/04/2020"
+date: "03/05/2024"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
